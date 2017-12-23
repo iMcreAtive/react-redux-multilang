@@ -1,0 +1,18 @@
+{
+  "name": "react-redux-multilang",
+  "version": "0.0.1",
+  "description": "",
+  "main": "compiled.js",
+  "scripts": {
+    "compile": "babel index.js --out-file compiled.js --presets=stage-0"
+  },
+  "author": "i.m. creAtive",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0"
+  }
+}
