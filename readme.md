@@ -16,6 +16,7 @@ syncWithStore(store) // step 2: sync language with store
 #### Use in components
 ```js
 import MultiLanguage from 'react-redux-multilang'
+import { connect } from 'react-redux'
 
 const translate = new MultiLanguage({
     en: {
@@ -42,6 +43,8 @@ class MyComponent extends Component{
         )
     }
 }
+
+export default connect(state => ({ lang: state.lang }))(MyComponent);
 ```
 
 #### Change language
