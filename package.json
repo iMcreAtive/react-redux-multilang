@@ -1,7 +1,7 @@
 {
   "name": "react-redux-multilang",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.3",
+  "description": "Lightweight package for implementation of multilingual React components like using CSSinJS",
   "main": "compiled.js",
   "scripts": {
     "compile": "babel index.js --out-file compiled.js --presets=stage-0"
@@ -14,5 +14,7 @@
   },
   "devDependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.26.0"
-  }
+  },
+  "keywords": ["react", "redux", "multi language", "localization", "react redux multilanguage"],
+  "homepage": "https://github.com/iMcreAtive/react-redux-multilang"
 }
